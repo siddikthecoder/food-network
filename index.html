@@ -16,6 +16,26 @@
 <body>
 
 
+    <!-----Top Bar Section----->
+
+
+    <section class="top-bar flex-container">
+        <div class="logo">
+            <img src="images/FN-logo.png" alt="">
+        </div>
+        <div class="main-menu">
+            <ul>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#my-recipes">Recipies</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-----Top Banner Section----->
+
     <section class="top-banner flex-container">
         <div class="half-width">
             <h1>
@@ -35,7 +55,10 @@
     </section>
 
 
-    <section class="about-me">
+
+    <!-----About Me Section----->
+
+    <section id="about-me">
         <div class="flex-container">
             <div class="half-width">
                 <img src="images/Person Image.png" alt="">
@@ -45,11 +68,13 @@
                 <p>
                     I am Swapna Bishwash From Bangladesh. I have completed Masters in Science from Dhaka University. But Cooking art in my heart, I have chosen to cook as a profession and is run a food network. We have provided good food since 2015
                     There are different kinds of food made like Bengali, Chinese, etc. But Bengali dishes have the Most priority.</p>
-                <a class="link-button" target="_blank" href="#">Contact Me</a>
+                <a class="link-button" target="_blank" href="#contact">Contact Me</a>
             </div>
         </div>
     </section>
 
+
+    <!-----My Recipes Section----->
 
     <section id="my-recipes">
         <h2>My Recipies</h2>
@@ -82,6 +107,40 @@
     </section>
 
 
+
+    <!------Services Section----->
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="flex-container">
+            <div class="services-item">
+                <img src="images/Laptop icon.png" alt="">
+                <h2>Online Service</h2>
+                <p>
+                    For Covid 19 situation we provide an online service. You can buy food on the internet.
+                </p>
+            </div>
+            <div class="services-item">
+                <img src="images/home icon.png" alt="">
+                <h2>Home Service</h2>
+                <p>
+                    Since 2015 we provide home service. We cook at any ceremony.
+                </p>
+            </div>
+            <div class="services-item">
+                <img src="images/Shop icon.png" alt="">
+                <h2>Online Shop</h2>
+                <p>
+                    Now we have started an online Shop. You can buy any food item from here.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-----Social Media Section------>
+
     <section class="social-media flex-container">
         <div class="social-media-item"><h1>700k</h1>
             <p>Youtube Subscribers</p>
@@ -95,6 +154,41 @@
             <p>Dribbble Shot Likes</p>
         </div>
     </section>
+
+
+    <!----Contact Section----->
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="flex-container">
+            <div class="contact-left half-width">
+                <div class="contact-left-item flex-container">
+                    <img src="images/phone-icon.png" alt="">
+                    <p>+8801793192000</p>
+                </div>
+                <div class="contact-left-item flex-container">
+                    <img src="images/mail-icon.png" alt="">
+                    <p>abcdefg@gmail.com</p>
+                </div>
+                <div class="contact-left-item flex-container">
+                    <img src="images/location-icon.png" alt="">
+                    <p>Road-02, Khilkhet, Dhaka, Bangladesh</p>
+                </div>
+            </div>
+            <div class="contact-right half-width">
+                <form action="#">
+                    <input type="text" id="name" class="input-field" name="name" placeholder="Your Name.."><br>
+                    <input type="mail" id="email" class="input-field" name="email" placeholder="Your Email.."><br>
+                    <textarea name="message" id="message" class="input-field" cols="30" rows="10" placeholder="Your Message Here.."></textarea><br>
+                    <input type="submit" id="submit" name="submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!-----Footer Section----->
 
 <footer>
     <h1><span class="tomato-color">Food</span> Network</h1>

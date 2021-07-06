@@ -12,7 +12,7 @@ h1{
 
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
 }
 p{
     font-size: 20px;
@@ -25,11 +25,10 @@ section{
 }
 .flex-container{
     margin-left: 10%;
+    margin-bottom: 80px;
     margin-right: 10%;
     width: 80%;
     display: flex;
-    margin-bottom: 80px;
-    
 }
 .half-width{
     width: 50%;
@@ -46,15 +45,51 @@ section{
 }
 
 
+/*---- Top Bar Section----*/
+
+.top-bar{
+    margin-top: 40px;
+}
+.logo{
+    width: 50%;
+}
+.logo img{
+    width: 100px;
+
+}
+.main-menu{
+    margin-top: 30px;
+    width: 50%;
+}
+.main-menu ul{
+    list-style: none;
+    float: right;
+}
+.main-menu ul li{
+    display: inline-block;
+    padding-left: 30px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color:#575757 ;
+    font-size: larger;
+    font-weight: 900;
+    transition: all 0.2s;
+}
+.main-menu ul li a:hover{
+    color: #FC9149;
+}
+
+
 /*---- Top Banner Section ----*/
 
 
 .top-banner{
-    padding-top: 50px;
+    padding-top: 10px;
 }
 .top-banner img{
+    margin-top: -100px;
     width: 100%;
-    margin-top: -45px;
     background-image: url(images/Group\ 88.png);
     background-repeat: no-repeat;
     background-position-x: 90%;
@@ -69,7 +104,7 @@ section{
 /*---- About Me Section ----*/
 
 
-.about-me{
+#about-me{
     padding-top: 50px;
     background-color: #FFF4EE;
     background-image: url(images/about-me.jpg);
@@ -77,24 +112,22 @@ section{
     background-position: left;
     background-size: full-width;
 }
-.about-me img{
+#about-me img{
     margin-bottom: -4px;
     width: 50%;
 }
-.about-me h2{
+#about-me h2{
     margin-top: 50px;
 }
-.about-me p{
+#about-me p{
     margin-top: 50px;
 }
 
 
-/*---- My Recipies Section ----*/
+/*---- My Recipes Section ----*/
 
 
-#my-recipes{
 
-}
 #my-recipes> h2{
     text-align: center;
 }
@@ -107,7 +140,6 @@ section{
 }
 .recipes{
     display: flex;
-    padding: 0 ;
 }
 .recipes :first-child{
     margin-right: 5%;
@@ -117,9 +149,9 @@ section{
 }
 
 .recipes-item{
+    padding: 20px;
     width: 30%;
     box-shadow: 5px 5px 40px gray;
-    padding: 20px;
     border-radius: 20px;
 }
 .recipes-item img{
@@ -128,6 +160,7 @@ section{
 .recipes-item h2{
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 30px;
     color: black;
     text-align: center;
 }
@@ -138,32 +171,128 @@ section{
 }
 
 
-/*---- Social Media---*/
+
+/*----Services Section----*/
+
+#services{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFF4EE;
+    
+}
+#services>h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+#services> div{
+    padding-top: 50px;
+    background-color: white;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    
+}
+.services-item{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 30%;
+}
+.services-item img{
+    margin-left: 40%;
+    width: 40px;
+}
+.services-item h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.services-item p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+
+/*---- Social Media Hit---*/
 
 
 .social-media{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 70px;
     box-shadow: 5px 5px 40px gray;
     border-radius: 20px;
     padding-bottom: 70px;
-    padding-top: 50px;
     color: black;
-    margin-top: 140px;
 }
 .social-media-item{
-    width: 30%;
-    margin-right: 5%;
     margin-left: 5%
+    margin-right: 5%;
+    width: 30%;
 }
 .social-media-item p{
     font-size: 17px;
 }
 
 
+/*---- Contact Section----*/
+
+#contact{
+    margin-bottom: -50px;
+    padding-top: 50px;
+    padding-bottom: 2px;
+    background-color: #FFF4EE;
+}
+#contact h2{
+    text-align: center;
+}
+.contact-left{
+    margin-top: 30px;
+}
+.contact-left-item img{
+    margin-right: 30px;
+    width: 20px;
+    
+}
+.contact-left-item{
+    margin-left: 0px;
+}
+
+/*----Input Form----*/
+
+.input-field{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #0A0D16;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+#submit{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #0A0D16;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    transition: all 0.2s;
+}
+#submit:hover{
+    background-color: #FC9149;
+}
+
+
 /*---Footer Section---*/
 
 footer{
-    
-    margin-top: 20px;
     padding-top: 50px;
     padding-bottom: 70px;
     background-color: #0A0D16;
