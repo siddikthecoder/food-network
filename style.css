@@ -221,16 +221,15 @@ section{
 
 .social-media{
     margin-top: 100px;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding-top: 70px;
     box-shadow: 5px 5px 40px gray;
     border-radius: 20px;
     padding-bottom: 70px;
     color: black;
 }
 .social-media-item{
-    margin-left: 5%
-    margin-right: 5%;
+    padding-left: 8%;
+    padding-right: 5%;
     width: 30%;
 }
 .social-media-item p{
