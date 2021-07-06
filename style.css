@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     color: #575757;
@@ -14,14 +18,15 @@ p{
     font-size: 20px;
 }
 section{
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    width: 100%;
 }
 .tomato-color{
     color: #FC9149;
 }
 .flex-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
     display: flex;
     margin-bottom: 80px;
     
@@ -39,8 +44,6 @@ section{
     text-decoration: none;
     color: White;
     font-size: 20px;
-    font-weight: bolder;
-
 }
 
 
@@ -55,7 +58,7 @@ section{
     margin-top: -35px;
     background-image: url(images/Group\ 88.png);
     background-repeat: no-repeat;
-    background-position-x: 100%;
+    background-position-x: 90%;
     background-position-y: 90%;  
 }
 
@@ -66,6 +69,7 @@ section{
 
 .about-me{
     padding-top: 70px;
+    background-color: #FFF4EE;
     background-image: url(images/about-me.jpg);
     background-repeat: no-repeat;
     background-position: left;
@@ -74,7 +78,6 @@ section{
 .about-me img{
     width: 50%;
     margin-left: 140px;
-    margin-top: -20px;
 }
 
 
@@ -87,11 +90,67 @@ section{
 .my-recipies h2{
     text-align: center;
 }
-.my-recipies p{
+.my-recipies> p{
     text-align: center;
-    font-size: 15px;
-    padding: 0px 20%;
+    padding: 0px 30%;
 }
-.recipie-item{
-    width
+.recipies{
+    display: flex;
+    padding: 0 ;
+}
+.recipies-item{
+    width: 30%;
+    box-shadow: 5px 5px 40px gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+.recipies :first-child{
+    margin-right: 5%;
+}
+.recipies :last-child{
+    margin-left: 5%;
+}
+.recipies-item img{
+    width: 100%;
+}
+.recipies-item h2{
+    color: black;
+    text-align: left;
+}
+.recipies-item p{
+    color: black;
+    text-align: left;
+}
+
+
+/*---- Social Media---*/
+
+
+.social-media{
+    box-shadow: 5px 5px 40px gray;
+    border-radius: 20px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    color: black;
+    margin-top: 140px;
+}
+.social-media-item{
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 5%
+}
+.social-media-item p{
+    font-size: 17px;
+}
+
+
+/*---Footer Section---*/
+
+footer{
+    
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #0A0D16;
+    text-align: center;
 }
