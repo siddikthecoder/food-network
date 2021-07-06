@@ -92,43 +92,44 @@ section{
 /*---- My Recipies Section ----*/
 
 
-.my-recipies{
+#my-recipes{
 
 }
-.my-recipies h2{
+#my-recipes> h2{
     text-align: center;
 }
-.my-recipies> p{
+#my-recipes> p{
     margin-top: 20px;
     margin-bottom: 50px;
     padding: 0px 30%;
     text-align: center;
     
 }
-.recipies{
+.recipes{
     display: flex;
     padding: 0 ;
 }
-.recipies-item{
+.recipes :first-child{
+    margin-right: 5%;
+}
+.recipes :last-child{
+    margin-left: 5%;
+}
+
+.recipes-item{
     width: 30%;
     box-shadow: 5px 5px 40px gray;
     padding: 20px;
     border-radius: 20px;
 }
-.recipies :first-child{
-    margin-right: 5%;
-}
-.recipies :last-child{
-    margin-left: 5%;
-}
-.recipies-item img{
+.recipes-item img{
     width: 100%;
 }
-.recipies-item h2{
+.recipes-item h2{
     color: black;
     text-align: left;
 }
-.recipies-item p{
+.recipes-item> p{
     color: black;
     text-align: left;
 }
