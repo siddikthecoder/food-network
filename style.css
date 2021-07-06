@@ -126,12 +126,15 @@ section{
     width: 100%;
 }
 .recipes-item h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: black;
-    text-align: left;
+    text-align: center;
 }
 .recipes-item> p{
     color: black;
     text-align: left;
+    font-size: 18px;
 }
 
 
